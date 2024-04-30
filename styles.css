@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Montserrat";
@@ -7,10 +9,55 @@ body {
   height: 100vh;
   margin: 0;
   font-size: 16px;
+  text-align: center;
+}
+a {
+  color: #477ca7;
 }
 .__header {
   text-align: center;
   background: #0079ff;
   color: white;
   padding: 1em;
+}
+.__header p {
+  color: #ffef00;
+}
+h1 {
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+.__about {
+  background: #eee;
+  margin: 1rem 0;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+.__headline {
+  text-align: center;
+  padding: 3rem 0;
+}
+.__img-caption {
+  margin: 15px 0 5px 0;
+}
+.__read-more {
+  padding-bottom: 1rem;
 }
