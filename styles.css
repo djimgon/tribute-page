@@ -33,6 +33,9 @@ ul {
 li {
   margin: 16px 0;
 }
+ul li strong, blockquote p {
+  color: #ffef00;
+}
 blockquote {
   font-style: italic;
   max-width: 545px;
@@ -49,8 +52,9 @@ blockquote {
   color: #ffef00;
 }
 .__about {
-  background: #eee;
+  background: #00458d;
   margin: 1rem 0;
+  color: white;
 }
 .__headline {
   text-align: center;
