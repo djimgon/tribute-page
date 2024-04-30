@@ -14,15 +14,6 @@ body {
 a {
   color: #477ca7;
 }
-.__header {
-  text-align: center;
-  background: #0079ff;
-  color: white;
-  padding: 1em;
-}
-.__header p {
-  color: #ffef00;
-}
 h1 {
   font-weight: bold;
 }
@@ -31,10 +22,6 @@ img {
   display: block;
   height: auto;
   margin: 0 auto;
-}
-.__about {
-  background: #eee;
-  margin: 1rem 0;
 }
 ul {
   max-width: 550px;
@@ -51,6 +38,19 @@ blockquote {
   max-width: 545px;
   margin: 0 auto 50px auto;
   text-align: left;
+}
+.__header {
+  text-align: center;
+  background: #0079ff;
+  color: white;
+  padding: 1em;
+}
+.__header p {
+  color: #ffef00;
+}
+.__about {
+  background: #eee;
+  margin: 1rem 0;
 }
 .__headline {
   text-align: center;
