@@ -61,8 +61,12 @@ blockquote {
   padding: 3rem 0;
 }
 .__img-caption {
-  margin: 15px 0 5px 0;
+  margin: 25px 10% 35px 10%;
+  font-size: 1.3rem;
 }
 .__read-more {
   padding-bottom: 1rem;
+}
+.__img-wrap {
+  padding-top: 1rem;
 }
